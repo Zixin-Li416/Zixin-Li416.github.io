@@ -2,9 +2,7 @@ name: Deploy site
 
 on:
   push:
-    branches:
-      - master
-      - main
+    branches: [ master, main ]
     paths:
       - "assets/**"
       - "_sass/**"
@@ -31,9 +29,7 @@ on:
       - "!INSTALL.md"
       - "!README.md"
   pull_request:
-    branches:
-      - master
-      - main
+    branches: [ master, main ]
     paths:
       - "assets/**"
       - "_sass/**"
@@ -61,26 +57,44 @@ on:
       - "!README.md"
   workflow_dispatch:
 
+# ✅ Required permissions for the official GitHub Pages deployment
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# ✅ Prevent multiple deployments from running at the same time
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
+      # Step 1: Checkout repository
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+
+      # Step 2: Setup Ruby (for Jekyll)
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
+
+      # Step 3: Setup Python (optional – your repo uses nbconvert)
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-          cache: "pip" # caching pip dependencies
+          cache: "pip"
+
+      # Step 4: Update your _config.yml with the repo name (for giscus)
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -88,19 +102,33 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+
+      # Step 5: Install dependencies and build the site
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
+          bundle install
           bundle exec jekyll build
+
+      # Step 6: Optional – clean unused CSS
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Deploy 🚀
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+
+      # Step 7: Configure GitHub Pages (required by official deployment)
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      # Step 8: Upload the generated site (_site folder)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: _site
+          path: _site
+
+      # Step 9: Deploy to GitHub Pages (official step)
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
