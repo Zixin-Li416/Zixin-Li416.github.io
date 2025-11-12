@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: "Reproducibility in Economics: A Systematic Assessment of Model Sensitivity"
+description: "Led a reproducibility audit of published economics papers, showing how small modeling choices (e.g., controls, clustering) influence significance claims. Reinforced the need for robust inference and transparent reporting across empirical sciences."
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
