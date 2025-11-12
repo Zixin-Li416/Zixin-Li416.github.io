@@ -9,7 +9,6 @@ profile:
   image: avatar3.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    Berkeley, CA  
     zixin_li [AT] berkeley [DOT] edu
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
