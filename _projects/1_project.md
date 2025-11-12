@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Generative AI for Human Mobility: Simulating Individual Trajectories from Aggregated Data
-description: Developed a diffusion-based generative framework for simulating variable-length, privacy-preserving POI trajectories conditioned on demographic features and aggregate CBG–POI flows. Focused on aligning micro-plausibility with macro-consistency, with applications in public health and urban planning.
+title: "Generative AI for Human Mobility: Simulating Individual Trajectories from Aggregated Data"
+description: "Developed a diffusion-based generative framework for simulating variable-length, privacy-preserving POI trajectories conditioned on demographic features and aggregate CBG–POI flows. Focused on aligning micro-plausibility with macro-consistency, with applications in public health and urban planning."
 img: assets/img/12.jpg
 importance: 1
 category: work
