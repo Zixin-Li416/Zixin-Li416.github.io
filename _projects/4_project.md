@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: "Offline RL for Deep Brain Stimulation"
+description: "Collaborated on RL approaches for optimizing stimulation in Parkinson’s patients under sparse clinical feedback. Proposed a reward redistribution strategy to improve learning signal for patient-specific control."
 img:
 importance: 3
 category: fun
