@@ -4,7 +4,7 @@ title: "Mechanistic Modeling of Mosquito Flight Behavior with Cross-Modal Deep L
 description: "Co-developed the Behavioral State Attention Network (BSAN) to model mosquito host-seeking trajectories using olfactory, thermal, and visual cues. Proposed a mixture-of-experts design that revealed interpretable latent behavioral states (e.g., casting, tracking), aiding disease control efforts."
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: research
 giscus_comments: true
 ---
 
