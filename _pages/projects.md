@@ -6,7 +6,7 @@ description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
 display_categories: [research, class]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
