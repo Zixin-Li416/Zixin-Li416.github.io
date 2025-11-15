@@ -4,7 +4,7 @@ title: "Offline RL for Deep Brain Stimulation"
 description: "Collaborated on RL approaches for optimizing stimulation in Parkinson’s patients under sparse clinical feedback. Proposed a reward redistribution strategy to improve learning signal for patient-specific control."
 img:
 importance: 3
-category: fun
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
