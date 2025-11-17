@@ -21,6 +21,7 @@ nav_order: 7
         <p><strong>Read my full experience:</strong></p>
         <ul>
             <li><a href="/blog/2025/meeting-weili-zhang-ufc322-zh/">中文版本</a> 📄</li>
+            <li><a href="/blog/2025/meeting-weili-zhang-ufc322-en/">English Version</a> 📄</li>
         </ul>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
