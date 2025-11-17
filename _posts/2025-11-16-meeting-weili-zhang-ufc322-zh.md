@@ -11,12 +11,9 @@ lang: zh
 
 当我坐在纽约的烤肉店里，看着张伟丽就在几步之遥的地方边吃边和团队复盘比赛时，我还有些恍惚——这一切真实得有些不真实。几个小时前,我还在麦迪逊花园广场为她呐喊；而此刻，我竟然可以这么近距离地看着这位传奇战士。
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <div style="transform: rotate(90deg); margin: 50px auto;">
-            {% include figure.liquid path="assets/img/weili-and-me.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
-    </div>
+
+<div class="text-center">
+  <img src="/assets/img/weili-and-me.jpg" alt="与伟丽姐的合影 (我是幸福的小女孩)" style="transform: rotate(90deg); max-width: 600px;" class="img-fluid rounded z-depth-1">
 </div>
 <div class="caption">
     与伟丽姐的合影 (我是幸福的小女孩)
