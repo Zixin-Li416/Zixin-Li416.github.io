@@ -4,6 +4,7 @@ title: UFC 322：走近伟丽姐
 date: 2025-11-16
 tags: MMA UFC 张伟丽
 categories: personal
+description: 张伟丽
 thumbnail: assets/img/weili-and-me.jpg
 lang: zh
 ---
