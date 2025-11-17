@@ -24,7 +24,7 @@ I had the incredible honor of meeting her at UFC 322 in New York City. Weili is 
 
 A true champion is not defined by the belt around their waist, but by the unwavering spirit in their heart and the grace with which they face everything life throws at them.
 **Read my full experience:**
-- [中文版本](/_posts/2025-11-16-meeting-weili-zhang-ufc322-zh.md) 📄
+- [中文版本]((/blog/2025/meeting-weili-zhang-ufc322-zh/)) 📄
 
 ---
 
