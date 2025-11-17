@@ -13,7 +13,9 @@ lang: zh
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/weili-and-me.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div style="transform: rotate(90deg); margin: 50px auto;">
+            {% include figure.liquid path="assets/img/weili-and-me.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        </div>
     </div>
 </div>
 <div class="caption">
@@ -51,8 +53,11 @@ lang: zh
 时间回到几个小时以前，伟丽很平静。她恭喜了子弹,感谢了她的团队、来看她的粉丝、她的父母,对支持她的朋友说抱歉。这里真的好心疼。
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/question.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <img src="/assets/img/question.jpg" 
+             alt="赛后采访" 
+             style="transform: rotate(90deg); max-width: 500px;" 
+             class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
@@ -68,8 +73,11 @@ lang: zh
 周围所有外国人都在为伟丽加油——伟丽的人气真的超级高!!
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fight.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <img src="/assets/img/fight.jpg" 
+             alt="麦迪逊花园广场现场" 
+             style="transform: rotate(90deg); max-width: 500px;" 
+             class="img-fluid rounded z-depth-1">
     </div>
 </div>
 <div class="caption">
