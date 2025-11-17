@@ -364,6 +364,10 @@ imagemagick:
     - ".gif"
   output_formats:
     webp: "-quality 85"
+  exclude: 
+    - "weili-and-me.jpg"
+    - "question.jpg"
+    - "fight.jpg"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
