@@ -10,9 +10,12 @@ nav_order: 7
 
 ### Weili Zhang - My Inspiration
 
+
 <div class="text-center">
-  {% include figure.liquid path="assets/img/weili-and-me.jpg" title="Meeting Weili Zhang (UFC 322)" class="img-fluid rounded z-depth-1" width="600" %}
-  <p class="caption">Meeting Weili Zhang (UFC 322)</p>
+  <img src="/assets/img/weili-and-me.jpg" alt="With Weili Zhang" style="transform: rotate(90deg); max-width: 600px;" class="img-fluid rounded z-depth-1">
+</div>
+<div class="caption">
+    With Weili Zhang (UFC 322)
 </div>
 
 [Weili Zhang](https://www.ufc.com/athlete/weili-zhang) is not just my favorite MMA fighter—she's a true inspiration. As the first Chinese and Asian UFC champion, she has broken barriers and redefined what's possible in the sport.
