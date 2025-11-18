@@ -41,7 +41,7 @@ We are developing a diffusion-based generative framework that addresses these ch
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mobility_pipeline.jpg" title="Training and generation pipeline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mobility_preview.jpg" title="Training and generation pipeline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
