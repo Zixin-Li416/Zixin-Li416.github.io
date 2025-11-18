@@ -12,7 +12,7 @@ profile:
     <p>zixin_li [AT] berkeley [DOT] edu</p>
     <p><a href="assets/pdf/CV_JZL.pdf">CV</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
