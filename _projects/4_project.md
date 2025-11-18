@@ -154,4 +154,4 @@ Pre-train policies on large-scale DBS simulator data, then fine-tune on limited 
 
 This work demonstrates that offline RL with appropriate reward redistribution can learn effective control policies from sparse clinical feedback, advancing the goal of adaptive, personalized DBS therapy. The framework is generalizable to other biomedical control problems with similar temporal mismatch challenges, such as insulin delivery, drug dosing, and ventilator management.
 
-(Code)[Link]
+[Code](link)
