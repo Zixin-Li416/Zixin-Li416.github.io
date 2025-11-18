@@ -165,6 +165,6 @@ This work provides the first comprehensive assessment of reproducibility specifi
 
 **Reproducibility in Business Statistics**  
 Jessie Zixin Li, Ruizhu Zhou, [Ivor Cribben](https://apps.ualberta.ca/directory/person/cribben)  
-*Under Review at The Review of Economics and Statistics*, 2025
+*The Review of Economics and Statistics* (Under Review), 2025
 
 [Paper PDF](link-to-paper)
