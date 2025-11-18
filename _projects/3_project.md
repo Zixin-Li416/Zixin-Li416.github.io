@@ -5,7 +5,6 @@ description: "Led a comprehensive reproducibility audit of 235 articles across s
 img: assets/img/figure1_reproducibility.jpg
 importance: 3
 category: research
-giscus_comments: true
 ---
 
 ## Motivation: The Reproducibility Crisis in Science
