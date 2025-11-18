@@ -2,7 +2,7 @@
 layout: page
 title: "Offline RL for Deep Brain Stimulation Control"
 description: "Developed offline reinforcement learning approaches for optimizing Deep Brain Stimulation in Parkinson's patients. Proposed a reward redistribution strategy to address sparse clinical feedback, enabling patient-specific control policies from limited observational data."
-img: assets/img/dbs_overview.jpg
+img: assets/img/dbs_temporal_mismatch.jpg
 importance: 4
 category: research
 ---
