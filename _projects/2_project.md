@@ -135,7 +135,7 @@ Generate movement kernels across heterogeneous landscapes to predict mosquito po
 
 **BSAN: Behavioral State Attention Network for Modeling Mosquito Host-Seeking Behavior**  
 Haotian Sun, Jessie Zixin Li, [John M. Marshall](https://publichealth.berkeley.edu/people/john-marshall)  
-*Accepted to Artificial Intelligence for Social Impact Track*, 2026
+*Accepted to AAAI 2026 Artificial Intelligence for Social Impact Track*, 2026
 
 [Paper PDF](link-to-paper) | [Code](link-to-code)
 
