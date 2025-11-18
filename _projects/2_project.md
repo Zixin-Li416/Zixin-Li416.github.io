@@ -87,15 +87,26 @@ BSAN generates realistic flight trajectories that match observed mosquito behavi
 
 ### Biological Validation
 
-A key strength of BSAN is that its learned representations align with established neurobiology. The model discovers sensory-behavior relationships that match decades of experimental findings:
-
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/feature_correlation.jpg" title="Feature correlations" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p>A key strength of BSAN is that its learned representations align with established neurobiology. The model discovers sensory-behavior relationships that match decades of experimental findings:</p>
+        
+        <p><strong>Key Biological Validations:</strong></p>
+        <ul>
+            <li><strong>CO₂ → Casting (0.75) & Tracking (0.65):</strong> Confirms CO₂'s role as primary long-range attractant that initiates oriented search behavior</li>
+            <li><strong>Temperature → Hovering (0.85):</strong> Matches observed thermal-guided landing behavior, where mosquitoes linger over warm surfaces before landing</li>
+            <li><strong>Distance → Hovering (-0.80):</strong> Validates that close-range assessment only occurs within 10-20 cm of the host</li>
+            <li><strong>Visual → Casting (0.65):</strong> Supports the role of visual cues in navigation and flight stabilization during plume search</li>
+        </ul>
+        
+        <p>These emergent correlations—learned purely from trajectory data without explicit supervision—demonstrate that BSAN captures biologically meaningful sensory-motor computations.</p>
     </div>
-</div>
-<div class="caption">
-    Correlation matrix showing learned relationships match biological evidence: CO₂ drives searching and tracking behaviors, temperature triggers hovering at close range, and distance gates assessment behavior.
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/feature_correlation.jpg" title="Feature correlations" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Learned feature correlations align with established mosquito neurobiology.
+        </div>
+    </div>
 </div>
 
 **Key Biological Validations:**
