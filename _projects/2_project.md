@@ -5,7 +5,6 @@ description: "Developed BSAN, a deep learning model that predicts mosquito fligh
 img: assets/img/mosquito_states_diagram.jpg
 importance: 2
 category: research
-giscus_comments: true
 ---
 
 ## Motivation: Why Mosquito Behavior Matters
