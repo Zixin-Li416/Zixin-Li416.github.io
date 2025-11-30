@@ -11,7 +11,7 @@ category: research
 
 Reproducibility constitutes a foundational principle of scientific research, serving as a critical mechanism for ensuring the reliability and validity of empirical findings. When research cannot be reproduced, it undermines public trust in science, wastes resources on building upon faulty findings, and slows scientific progress across disciplines.
 
-Recent evidence reveals concerning patterns across scientific domains: only 15.1% of fMRI analyses in statistics articles were reproducible, social work faces a documented reproducibility crisis, and management science struggles with inadequate data access despite improved policies. These failures stem from insufficient documentation, inappropriate methods, publication bias, and lack of standardized practices for sharing code and data.
+Recent evidence reveals concerning patterns across scientific domains: only **15.1%** of fMRI analyses in statistics articles were reproducible, social work faces a documented reproducibility crisis, and management science struggles with inadequate data access despite improved policies. These failures stem from insufficient documentation, inappropriate methods, publication bias, and lack of standardized practices for sharing code and data.
 
 **The stakes are particularly high in business and economic statistics**, where research findings directly inform policy decisions, investment strategies, and organizational practices affecting millions of people. Yet despite clear journal policies requiring data and code sharing, the actual state of reproducibility remains largely unknown.
 
@@ -165,6 +165,6 @@ This work provides the first comprehensive assessment of reproducibility specifi
 
 **Reproducibility in Business Statistics**  
 Jessie Zixin Li, Ruizhu Zhou, [Ivor Cribben](https://apps.ualberta.ca/directory/person/cribben)  
-*The Review of Economics and Statistics* (Under Review), 2025
+*The Review of Economics and Statistics* (In preparation), 2025
 
-[Paper PDF](link-to-paper)
+[Paper PDF Coming Soon](link-to-paper)
