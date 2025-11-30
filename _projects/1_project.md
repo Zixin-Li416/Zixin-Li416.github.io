@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Diffusion Models for Privacy-Preserving Mobility Trajectory Generation"
+title: "Large-Scale Human Mobility Generation via Generative AI"
 description: "Developing a diffusion-based framework to generate realistic individual mobility trajectories from aggregate population data. Combines conditional generation with aggregation-consistency loss to balance micro-plausibility and macro-fidelity for public health applications."
 img: assets/img/mobility_preview.jpg
 importance: 1
