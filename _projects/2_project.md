@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "BSAN: Deep Learning for Mosquito Behavior Modeling"
+title: "Multimodal Deep Learning for Mosquito Behavior"
 description: "Developed BSAN, a deep learning model that predicts mosquito flight trajectories by integrating olfactory, thermal, and visual cues. The model reveals interpretable behavioral states to inform vector control strategies."
 img: assets/img/mosquito_states_diagram.jpg
 importance: 2
