@@ -136,7 +136,7 @@ Generate movement kernels across heterogeneous landscapes to predict mosquito po
 Haotian Sun, Jessie Zixin Li, [John M. Marshall](https://publichealth.berkeley.edu/people/john-marshall)  
 *Accepted to AAAI 2026 Artificial Intelligence for Social Impact Track*, 2026
 
-[Paper PDF](link-to-paper) | [Code](link-to-code)
+[Paper PDF](assets/pdf/aaai2026_BSAN__Behavioral_State_Attention_Network_for_Modeling_Mosquito_Host_Seeking_Behavior.pdf) | [Code Coming Soon](link-to-code)
 
 ---
 
