@@ -26,7 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-👋 I’m Jessie Li (李子欣), a second year Master’s student in [Biostatistics](https://publichealth.berkeley.edu/academics/biostatistics) at UC Berkeley. I’m broadly interested in AI for public health, especially how generative and statistical models can reveal how individual behaviors shape population health. My work focuses on generating realistic behavioral data and uncovering underlying mechanisms from observations—balancing individual detail, population scalability, and privacy.
+👋 I’m Jessie Li (李子欣), a first-year PhD student in Computational Precision Health at UC Berkeley and UCSF, advised by Prof. [Serina Chang](https://serinachang5.github.io/). I’m interested in AI for understanding human behavior and informing public health decisions, with a particular focus on human mobility.
 
-I’m currently working with Prof. [Serina Chang](https://serinachang5.github.io/) on human behavior simulation with diffusion models, and previously worked with Prof. [Ivor Cribben](https://apps.ualberta.ca/directory/person/cribben) on statistical brain-network analysis during my undergrad studies.
-
+My previous work explored how generative models can learn individual mobility trajectories conditioned on demographic characteristics from aggregate data. I now work on using mobility data to inform emergency response and support real-world policy decisions.
