@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: headshot1.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>zixin_li [AT] berkeley [DOT] edu</p>
