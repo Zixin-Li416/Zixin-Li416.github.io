@@ -6,11 +6,10 @@ permalink: /
 
 profile:
   align: right
-  image: avatar3.jpg
+  image: headshot1.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>zixin_li [AT] berkeley [DOT] edu</p>
-    <p><a href="assets/pdf/CV_JZL.pdf">CV</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
