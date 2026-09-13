@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>zixin_li [AT] berkeley [DOT] edu</p>
 
+homepage_sections: true
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 

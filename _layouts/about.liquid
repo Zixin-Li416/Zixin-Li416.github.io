@@ -40,6 +40,20 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.homepage_sections %}
+      <section id="publications" class="mt-5">
+        <h2>Publications</h2>
+        <div class="publications">
+          {% bibliography %}
+        </div>
+      </section>
+      <section id="teaching" class="mt-5">
+        <h2>Teaching</h2>
+        {% assign teaching_page = site.pages | where: 'permalink', '/teaching/' | first %}
+        {{ teaching_page.content | markdownify }}
+      </section>
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

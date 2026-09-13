@@ -2,7 +2,7 @@
 layout: page
 title: life
 permalink: /life/
-nav: true
+nav: false
 nav_order: 7
 ---
 
