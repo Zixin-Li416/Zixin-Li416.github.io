@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Board Game Cake",
+    "caption": "A chocolate-covered cake topped with strawberries, blueberries, and grapes for board game night.",
+    "images": [
+      {
+        "path": "assets/img/cakes/board-game.jpg",
+        "alt": "Board Game Cake"
+      },
+      {
+        "path": "assets/img/cakes/board-game-detail.jpg",
+        "alt": "Board Game Cake — another view"
+      }
+    ]
+  },
+  {
+    "title": "My Birthday Cake · 2026",
+    "caption": "Berries, grapes, and contrasting chocolate coatings for my 2026 birthday cake.",
+    "images": [
+      {
+        "path": "assets/img/cakes/birthday-2026.jpg",
+        "alt": "My Birthday Cake · 2026"
+      },
+      {
+        "path": "assets/img/cakes/birthday-2026-detail.jpg",
+        "alt": "My Birthday Cake · 2026 — another view"
+      }
+    ]
+  },
+  {
+    "title": "肉松小贝 · Pork Floss Cake",
+    "caption": "A savory little cake coated in pork floss, seaweed, and sesame.",
+    "images": [
+      {
+        "path": "assets/img/cakes/pork-floss.jpg",
+        "alt": "肉松小贝 · Pork Floss Cake"
+      }
+    ]
+  },
+  {
+    "title": "Cake with Anqi",
+    "caption": "A crescent-shaped cake with sliced strawberries and bright yellow finishing touches.",
+    "images": [
+      {
+        "path": "assets/img/cakes/cake-with-anqi.jpg",
+        "alt": "Cake with Anqi"
+      }
+    ]
+  },
+  {
+    "title": "Chinese New Year",
+    "caption": "A homemade cake at the center of our New Year feast.",
+    "images": [
+      {
+        "path": "assets/img/cakes/chinese-new-year.jpg",
+        "alt": "Chinese New Year"
+      }
+    ]
+  },
+  {
+    "title": "Thanksgiving Cake",
+    "caption": "A spiral of green grapes and a border of piped cream for Thanksgiving.",
+    "images": [
+      {
+        "path": "assets/img/cakes/thanksgiving.jpg",
+        "alt": "Thanksgiving Cake"
+      }
+    ]
+  },
+  {
+    "title": "Anqi’s Birthday",
+    "caption": "Strawberries all around, chocolates on top, and candles ready for Anqi’s birthday.",
+    "images": [
+      {
+        "path": "assets/img/cakes/anqi-birthday.jpg",
+        "alt": "Anqi’s Birthday"
+      }
+    ]
+  },
+  {
+    "title": "My Birthday Cake · 2025",
+    "caption": "Matcha whipped cream, chocolate drips, and a pile of berries for my 2025 birthday.",
+    "images": [
+      {
+        "path": "assets/img/cakes/birthday-2025.jpg",
+        "alt": "My Birthday Cake · 2025"
+      }
+    ]
+  },
+  {
+    "title": "Benny’s Birthday",
+    "caption": "A chocolate-covered birthday cake piled with chocolates and piped cream.",
+    "images": [
+      {
+        "path": "assets/img/cakes/benny-birthday.jpg",
+        "alt": "Benny’s Birthday"
+      },
+      {
+        "path": "assets/img/cakes/benny-birthday-detail.jpg",
+        "alt": "Benny’s Birthday — another view"
+      }
+    ]
+  },
+  {
+    "title": "Inside the Layers",
+    "caption": "A cross-section of sponge, cream, and colorful fruit—the part that matters most.",
+    "images": [
+      {
+        "path": "assets/img/cakes/inside-the-layers.jpg",
+        "alt": "Inside the Layers"
+      }
+    ]
+  },
+  {
+    "title": "Berry Cake",
+    "caption": "A little cake topped with strawberries, blueberries, and a generous sprinkle of crumbs.",
+    "images": [
+      {
+        "path": "assets/img/cakes/berry-cake.jpg",
+        "alt": "Berry Cake"
+      }
+    ]
+  }
+]
